@@ -1,0 +1,62 @@
+
+
+.text-carrusel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 30;
+    color: white;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 30%;
+    margin-right: 8%;
+    
+}
+
+.titulo-card {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#card {
+    width: 70%;
+}
+.text-carrusel p {
+    text-align: right;
+    width: 40%;
+}
+
+.carousel-item img {
+    filter: brightness(40%);
+}
+
+#textareas {
+    width: 50%;
+}
+
+.container {
+    flex-flow: column wrap;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+.item {
+    display: inline-flex;
+    align-self: center;
+    flex-grow: 0;
+    width: 100%;
+}
+
+.foot {
+    background: linear-gradient(to bottom,#1A3644, #1C5372);
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.foot ul li a{
+    color: white;
+}
+
